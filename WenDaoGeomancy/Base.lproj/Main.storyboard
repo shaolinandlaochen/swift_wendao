@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9Ba-XB-66C">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WenDaoGeomancy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,6 +23,68 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-932" y="-22"/>
+        </scene>
+        <!--说道-->
+        <scene sceneID="91A-zu-bhn">
+            <objects>
+                <viewController id="mx4-c4-FUk" customClass="ShuoDaoViewController" customModule="WenDaoGeomancy" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="说道" id="EU9-Zm-iBW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3uv-Jj-EJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1876" y="-439"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="kOn-2A-00V">
+            <objects>
+                <viewController id="Jis-K5-d54" customClass="MyViewController" customModule="WenDaoGeomancy" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" id="XUR-Ai-VH5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="edv-mz-5B1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1876" y="345"/>
+        </scene>
+        <!--消息-->
+        <scene sceneID="klY-Fy-q1d">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EKm-mP-gAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="0DO-Y3-XG5" customClass="MessageViewController" customModule="WenDaoGeomancy" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="消息" id="qdb-vJ-yuz"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="969" y="345"/>
+        </scene>
+        <!--问道-->
+        <scene sceneID="GDG-s7-joo">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I46-Z1-QWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="hc4-gk-mzd" customClass="HomeViewController" customModule="WenDaoGeomancy" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="问道" id="lcy-6f-oSg"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="970" y="-439"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="bmG-XF-giN">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SRy-Bx-Pcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController hidesBottomBarWhenPushed="YES" id="9Ba-XB-66C" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="uQc-tR-JEc"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Gyc-5N-Yfg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="hc4-gk-mzd" kind="relationship" relationship="viewControllers" id="FUo-6v-LwB"/>
+                        <segue destination="mx4-c4-FUk" kind="relationship" relationship="viewControllers" id="n6s-9h-wxk"/>
+                        <segue destination="0DO-Y3-XG5" kind="relationship" relationship="viewControllers" id="Zsg-HW-XrB"/>
+                        <segue destination="Jis-K5-d54" kind="relationship" relationship="viewControllers" id="zqq-W1-qiV"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="-79" y="-90"/>
         </scene>
     </scenes>
 </document>

@@ -14,6 +14,16 @@
 		9D4EF5502019ABD5006B0120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4EF54E2019ABD5006B0120 /* LaunchScreen.storyboard */; };
 		9D4EF55B2019ABD5006B0120 /* WenDaoGeomancyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EF55A2019ABD5006B0120 /* WenDaoGeomancyTests.swift */; };
 		9D4EF5662019ABD5006B0120 /* WenDaoGeomancyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EF5652019ABD5006B0120 /* WenDaoGeomancyUITests.swift */; };
+		9D4EF57D2019B4FC006B0120 /* ShuoDaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EF57B2019B4FC006B0120 /* ShuoDaoViewController.swift */; };
+		9D4EF57E2019B4FC006B0120 /* ShuoDaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4EF57C2019B4FC006B0120 /* ShuoDaoViewController.xib */; };
+		9D4EF5822019B58B006B0120 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EF5802019B58B006B0120 /* MessageViewController.swift */; };
+		9D4EF5832019B58B006B0120 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4EF5812019B58B006B0120 /* MessageViewController.xib */; };
+		9D4EF5872019B59D006B0120 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EF5852019B59D006B0120 /* MyViewController.swift */; };
+		9D4EF5882019B59D006B0120 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4EF5862019B59D006B0120 /* MyViewController.xib */; };
+		9D4EF58B2019B5D4006B0120 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EF5892019B5D4006B0120 /* HomeViewController.swift */; };
+		9D4EF58C2019B5D4006B0120 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4EF58A2019B5D4006B0120 /* HomeViewController.xib */; };
+		9D4EF58F2019BAF8006B0120 /* DetailsLectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EF58D2019BAF8006B0120 /* DetailsLectureViewController.swift */; };
+		9D4EF5902019BAF8006B0120 /* DetailsLectureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4EF58E2019BAF8006B0120 /* DetailsLectureViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		9D4EF5612019ABD5006B0120 /* WenDaoGeomancyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WenDaoGeomancyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4EF5652019ABD5006B0120 /* WenDaoGeomancyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WenDaoGeomancyUITests.swift; sourceTree = "<group>"; };
 		9D4EF5672019ABD5006B0120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D4EF57B2019B4FC006B0120 /* ShuoDaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuoDaoViewController.swift; sourceTree = "<group>"; };
+		9D4EF57C2019B4FC006B0120 /* ShuoDaoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShuoDaoViewController.xib; sourceTree = "<group>"; };
+		9D4EF5802019B58B006B0120 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		9D4EF5812019B58B006B0120 /* MessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		9D4EF5852019B59D006B0120 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		9D4EF5862019B59D006B0120 /* MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		9D4EF5892019B5D4006B0120 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9D4EF58A2019B5D4006B0120 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		9D4EF58D2019BAF8006B0120 /* DetailsLectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsLectureViewController.swift; sourceTree = "<group>"; };
+		9D4EF58E2019BAF8006B0120 /* DetailsLectureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsLectureViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,10 @@
 			children = (
 				9D4EF5452019ABD5006B0120 /* AppDelegate.swift */,
 				9D4EF5472019ABD5006B0120 /* ViewController.swift */,
+				9D4EF5842019B58F006B0120 /* 我的 */,
+				9D4EF57F2019B578006B0120 /* 消息 */,
+				9D4EF57A2019B4DD006B0120 /* 说道 */,
+				9D4EF5732019B22F006B0120 /* 首页 */,
 				9D4EF5492019ABD5006B0120 /* Main.storyboard */,
 				9D4EF54C2019ABD5006B0120 /* Assets.xcassets */,
 				9D4EF54E2019ABD5006B0120 /* LaunchScreen.storyboard */,
@@ -123,6 +147,44 @@
 				9D4EF5672019ABD5006B0120 /* Info.plist */,
 			);
 			path = WenDaoGeomancyUITests;
+			sourceTree = "<group>";
+		};
+		9D4EF5732019B22F006B0120 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				9D4EF5892019B5D4006B0120 /* HomeViewController.swift */,
+				9D4EF58A2019B5D4006B0120 /* HomeViewController.xib */,
+				9D4EF58D2019BAF8006B0120 /* DetailsLectureViewController.swift */,
+				9D4EF58E2019BAF8006B0120 /* DetailsLectureViewController.xib */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		9D4EF57A2019B4DD006B0120 /* 说道 */ = {
+			isa = PBXGroup;
+			children = (
+				9D4EF57B2019B4FC006B0120 /* ShuoDaoViewController.swift */,
+				9D4EF57C2019B4FC006B0120 /* ShuoDaoViewController.xib */,
+			);
+			path = "说道";
+			sourceTree = "<group>";
+		};
+		9D4EF57F2019B578006B0120 /* 消息 */ = {
+			isa = PBXGroup;
+			children = (
+				9D4EF5802019B58B006B0120 /* MessageViewController.swift */,
+				9D4EF5812019B58B006B0120 /* MessageViewController.xib */,
+			);
+			path = "消息";
+			sourceTree = "<group>";
+		};
+		9D4EF5842019B58F006B0120 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				9D4EF5852019B59D006B0120 /* MyViewController.swift */,
+				9D4EF5862019B59D006B0120 /* MyViewController.xib */,
+			);
+			path = "我的";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +255,7 @@
 				TargetAttributes = {
 					9D4EF5412019ABD5006B0120 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					9D4EF5552019ABD5006B0120 = {
 						CreatedOnToolsVersion = 9.2;
@@ -232,8 +294,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4EF57E2019B4FC006B0120 /* ShuoDaoViewController.xib in Resources */,
+				9D4EF5832019B58B006B0120 /* MessageViewController.xib in Resources */,
+				9D4EF5882019B59D006B0120 /* MyViewController.xib in Resources */,
 				9D4EF5502019ABD5006B0120 /* LaunchScreen.storyboard in Resources */,
+				9D4EF5902019BAF8006B0120 /* DetailsLectureViewController.xib in Resources */,
 				9D4EF54D2019ABD5006B0120 /* Assets.xcassets in Resources */,
+				9D4EF58C2019B5D4006B0120 /* HomeViewController.xib in Resources */,
 				9D4EF54B2019ABD5006B0120 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4EF57D2019B4FC006B0120 /* ShuoDaoViewController.swift in Sources */,
+				9D4EF58F2019BAF8006B0120 /* DetailsLectureViewController.swift in Sources */,
 				9D4EF5482019ABD5006B0120 /* ViewController.swift in Sources */,
 				9D4EF5462019ABD5006B0120 /* AppDelegate.swift in Sources */,
+				9D4EF5872019B59D006B0120 /* MyViewController.swift in Sources */,
+				9D4EF5822019B58B006B0120 /* MessageViewController.swift in Sources */,
+				9D4EF58B2019B5D4006B0120 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +498,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WenDaoGeomancy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MrHan.2018.WenDaoGeomancy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +514,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WenDaoGeomancy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MrHan.2018.WenDaoGeomancy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
