@@ -32,7 +32,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         // 测试网络返回情况可以用这个地址 http://httpbin.org
         let dic = ["name":"why", "age":18] as [String : Any]
         
-        SLRequest.shareInstance.request(methodType: .GET, urlString: "http://www.baidu.", parameters: dic) { (result, error) in
+        SLRequest.shareInstance.request(methodType: .GET, urlString: "http://www.baidu.com", parameters: dic) { (result, error) in
             if error != nil {
                 print(error!)
                 return
