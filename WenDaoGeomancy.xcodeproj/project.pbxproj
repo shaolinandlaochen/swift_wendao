@@ -51,6 +51,7 @@
 		9DA12F63201AD56C00774341 /* icon_index_news_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA12F4B201AD56C00774341 /* icon_index_news_sel@3x.png */; };
 		9DA12F64201AD56C00774341 /* icon_index_wendao_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA12F4C201AD56C00774341 /* icon_index_wendao_nor@3x.png */; };
 		9DA12F65201AFEC600774341 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA12F66201AFEC600774341 /* SnapKit.framework */; };
+		9DA12F69201B10AA00774341 /* SLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA12F68201B10AA00774341 /* SLRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +122,7 @@
 		9DA12F4B201AD56C00774341 /* icon_index_news_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_index_news_sel@3x.png"; sourceTree = "<group>"; };
 		9DA12F4C201AD56C00774341 /* icon_index_wendao_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_index_wendao_nor@3x.png"; sourceTree = "<group>"; };
 		9DA12F66201AFEC600774341 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA12F68201B10AA00774341 /* SLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLRequest.swift; sourceTree = "<group>"; };
 		A08EFD7773F2B750442A6EC1 /* Pods-WenDaoGeomancy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WenDaoGeomancy.release.xcconfig"; path = "Pods/Target Support Files/Pods-WenDaoGeomancy/Pods-WenDaoGeomancy.release.xcconfig"; sourceTree = "<group>"; };
 		DD0DDE3E8126FF449B014C62 /* Pods_WenDaoGeomancy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WenDaoGeomancy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -197,6 +199,7 @@
 			children = (
 				9D4EF5452019ABD5006B0120 /* AppDelegate.swift */,
 				9D4EF5472019ABD5006B0120 /* ViewController.swift */,
+				9DA12F67201B107D00774341 /* 请求 */,
 				9DA12F33201AD3C500774341 /* image */,
 				9DA12F30201AD19600774341 /* tabBar */,
 				9D4EF5842019B58F006B0120 /* 我的 */,
@@ -312,6 +315,14 @@
 				9DA12F3D201AD56A00774341 /* icon_index_wendao_sel@3x.png */,
 			);
 			path = tabBarImg;
+			sourceTree = "<group>";
+		};
+		9DA12F67201B107D00774341 /* 请求 */ = {
+			isa = PBXGroup;
+			children = (
+				9DA12F68201B10AA00774341 /* SLRequest.swift */,
+			);
+			path = "请求";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -538,6 +549,7 @@
 				9D4EF57D2019B4FC006B0120 /* ShuoDaoViewController.swift in Sources */,
 				9D4EF58F2019BAF8006B0120 /* DetailsLectureViewController.swift in Sources */,
 				9D4EF5482019ABD5006B0120 /* ViewController.swift in Sources */,
+				9DA12F69201B10AA00774341 /* SLRequest.swift in Sources */,
 				9D4EF5462019ABD5006B0120 /* AppDelegate.swift in Sources */,
 				9D4EF5872019B59D006B0120 /* MyViewController.swift in Sources */,
 				9D4EF5822019B58B006B0120 /* MessageViewController.swift in Sources */,
