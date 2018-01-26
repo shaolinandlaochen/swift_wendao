@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		892504AB86B71FB8F8BDE327 /* Pods_WenDaoGeomancy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0DDE3E8126FF449B014C62 /* Pods_WenDaoGeomancy.framework */; };
 		9D4EF5462019ABD5006B0120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EF5452019ABD5006B0120 /* AppDelegate.swift */; };
 		9D4EF5482019ABD5006B0120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EF5472019ABD5006B0120 /* ViewController.swift */; };
 		9D4EF54B2019ABD5006B0120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4EF5492019ABD5006B0120 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		9DA12F62201AD56C00774341 /* icon_index_wendao_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA12F4A201AD56C00774341 /* icon_index_wendao_nor.png */; };
 		9DA12F63201AD56C00774341 /* icon_index_news_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA12F4B201AD56C00774341 /* icon_index_news_sel@3x.png */; };
 		9DA12F64201AD56C00774341 /* icon_index_wendao_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA12F4C201AD56C00774341 /* icon_index_wendao_nor@3x.png */; };
+		9DA12F65201AFEC600774341 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA12F66201AFEC600774341 /* SnapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BA5D63093522B7496DEBD2D /* Pods-WenDaoGeomancy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WenDaoGeomancy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WenDaoGeomancy/Pods-WenDaoGeomancy.debug.xcconfig"; sourceTree = "<group>"; };
 		9D4EF5422019ABD5006B0120 /* WenDaoGeomancy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WenDaoGeomancy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4EF5452019ABD5006B0120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4EF5472019ABD5006B0120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +120,9 @@
 		9DA12F4A201AD56C00774341 /* icon_index_wendao_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_index_wendao_nor.png; sourceTree = "<group>"; };
 		9DA12F4B201AD56C00774341 /* icon_index_news_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_index_news_sel@3x.png"; sourceTree = "<group>"; };
 		9DA12F4C201AD56C00774341 /* icon_index_wendao_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_index_wendao_nor@3x.png"; sourceTree = "<group>"; };
+		9DA12F66201AFEC600774341 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08EFD7773F2B750442A6EC1 /* Pods-WenDaoGeomancy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WenDaoGeomancy.release.xcconfig"; path = "Pods/Target Support Files/Pods-WenDaoGeomancy/Pods-WenDaoGeomancy.release.xcconfig"; sourceTree = "<group>"; };
+		DD0DDE3E8126FF449B014C62 /* Pods_WenDaoGeomancy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WenDaoGeomancy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA12F65201AFEC600774341 /* SnapKit.framework in Frameworks */,
+				892504AB86B71FB8F8BDE327 /* Pods_WenDaoGeomancy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +152,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B64F7D514992724BEBE14A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BA5D63093522B7496DEBD2D /* Pods-WenDaoGeomancy.debug.xcconfig */,
+				A08EFD7773F2B750442A6EC1 /* Pods-WenDaoGeomancy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5971C7A670BAC875DED409AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA12F66201AFEC600774341 /* SnapKit.framework */,
+				DD0DDE3E8126FF449B014C62 /* Pods_WenDaoGeomancy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9D4EF5392019ABD5006B0120 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +177,8 @@
 				9D4EF5592019ABD5006B0120 /* WenDaoGeomancyTests */,
 				9D4EF5642019ABD5006B0120 /* WenDaoGeomancyUITests */,
 				9D4EF5432019ABD5006B0120 /* Products */,
+				4B64F7D514992724BEBE14A6 /* Pods */,
+				5971C7A670BAC875DED409AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -293,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D4EF56A2019ABD6006B0120 /* Build configuration list for PBXNativeTarget "WenDaoGeomancy" */;
 			buildPhases = (
+				D3E43E7F361670B3778964F0 /* [CP] Check Pods Manifest.lock */,
 				9D4EF53E2019ABD5006B0120 /* Sources */,
 				9D4EF53F2019ABD5006B0120 /* Frameworks */,
 				9D4EF5402019ABD5006B0120 /* Resources */,
+				634A40CD2F429C7D5D1FC288 /* [CP] Embed Pods Frameworks */,
+				692B563D04CC34334E2F1A75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -443,6 +474,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		634A40CD2F429C7D5D1FC288 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WenDaoGeomancy/Pods-WenDaoGeomancy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WenDaoGeomancy/Pods-WenDaoGeomancy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		692B563D04CC34334E2F1A75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WenDaoGeomancy/Pods-WenDaoGeomancy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E43E7F361670B3778964F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WenDaoGeomancy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D4EF53E2019ABD5006B0120 /* Sources */ = {
@@ -620,6 +705,7 @@
 		};
 		9D4EF56B2019ABD6006B0120 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA5D63093522B7496DEBD2D /* Pods-WenDaoGeomancy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -636,6 +722,7 @@
 		};
 		9D4EF56C2019ABD6006B0120 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08EFD7773F2B750442A6EC1 /* Pods-WenDaoGeomancy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;

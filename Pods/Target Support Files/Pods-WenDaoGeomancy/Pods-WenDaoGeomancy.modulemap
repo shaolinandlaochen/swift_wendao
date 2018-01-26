@@ -1,0 +1,6 @@
+framework module Pods_WenDaoGeomancy {
+  umbrella header "Pods-WenDaoGeomancy-umbrella.h"
+
+  export *
+  module * { export * }
+}

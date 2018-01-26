@@ -7,8 +7,8 @@
 //
 
 import UIKit
-
-class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+import SnapKit
+class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate {
     
     @IBOutlet var tableView: UITableView!
     
@@ -21,9 +21,24 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         self.view.backgroundColor=UIColor.white
         tableView.delegate=self
         tableView.dataSource=self
+        tableView.snp.makeConstraints { (mark) in
+            mark.left.equalTo(self.view)
+            mark.top.equalTo(-20)
+            mark.top.lessThanOrEqualTo(self.view.snp.top)
+            mark.right.equalTo(self.view)
+            mark.bottom.equalTo(self.view)
+        }
 
 
         // Do any additional setup after loading the view.
+    }
+    public func scrollViewDidScroll(_ scrollView: UIScrollView){
+        if scrollView.contentOffset.y <= -20 {
+            self.navigationController?.isNavigationBarHidden=true
+        }else{
+            self.navigationController?.isNavigationBarHidden=false
+        }
+        //print(scrollView.contentOffset.y)
     }
 
     //MARK: - 懒加载数据
@@ -33,7 +48,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     
     //MARK: 行数
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataList.count
+        return 50
     }
     //MARK: 点击cell执行
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -47,7 +62,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
             
         }
-        cell?.textLabel?.text = dataList[indexPath.row]
+        cell?.textLabel?.text = "aaaaaaaa"
 
         return cell!
     }
