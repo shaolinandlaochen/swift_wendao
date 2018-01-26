@@ -24,6 +24,7 @@
 		9D4EF58C2019B5D4006B0120 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4EF58A2019B5D4006B0120 /* HomeViewController.xib */; };
 		9D4EF58F2019BAF8006B0120 /* DetailsLectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EF58D2019BAF8006B0120 /* DetailsLectureViewController.swift */; };
 		9D4EF5902019BAF8006B0120 /* DetailsLectureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4EF58E2019BAF8006B0120 /* DetailsLectureViewController.xib */; };
+		9DA12F32201AD19600774341 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA12F31201AD19600774341 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		9D4EF58A2019B5D4006B0120 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		9D4EF58D2019BAF8006B0120 /* DetailsLectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsLectureViewController.swift; sourceTree = "<group>"; };
 		9D4EF58E2019BAF8006B0120 /* DetailsLectureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsLectureViewController.xib; sourceTree = "<group>"; };
+		9DA12F31201AD19600774341 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			children = (
 				9D4EF5452019ABD5006B0120 /* AppDelegate.swift */,
 				9D4EF5472019ABD5006B0120 /* ViewController.swift */,
+				9DA12F30201AD19600774341 /* tabBar */,
 				9D4EF5842019B58F006B0120 /* 我的 */,
 				9D4EF57F2019B578006B0120 /* 消息 */,
 				9D4EF57A2019B4DD006B0120 /* 说道 */,
@@ -185,6 +188,14 @@
 				9D4EF5862019B59D006B0120 /* MyViewController.xib */,
 			);
 			path = "我的";
+			sourceTree = "<group>";
+		};
+		9DA12F30201AD19600774341 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9DA12F31201AD19600774341 /* TabBarViewController.swift */,
+			);
+			path = tabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA12F32201AD19600774341 /* TabBarViewController.swift in Sources */,
 				9D4EF57D2019B4FC006B0120 /* ShuoDaoViewController.swift in Sources */,
 				9D4EF58F2019BAF8006B0120 /* DetailsLectureViewController.swift in Sources */,
 				9D4EF5482019ABD5006B0120 /* ViewController.swift in Sources */,
