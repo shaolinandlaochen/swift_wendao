@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25E881A5847630647253E21CFAF4A142"
+               BlueprintIdentifier = "7AEAA042BBB3FA4E0C92FC44AB7F93CE"
                BuildableName = "Pods_WenDaoGeomancy.framework"
                BlueprintName = "Pods-WenDaoGeomancy"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25E881A5847630647253E21CFAF4A142"
+            BlueprintIdentifier = "7AEAA042BBB3FA4E0C92FC44AB7F93CE"
             BuildableName = "Pods_WenDaoGeomancy.framework"
             BlueprintName = "Pods-WenDaoGeomancy"
             ReferencedContainer = "container:Pods.xcodeproj">

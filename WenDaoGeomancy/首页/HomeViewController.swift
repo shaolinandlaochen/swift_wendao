@@ -29,6 +29,17 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             mark.bottom.equalTo(self.view)
         }
 
+        // 测试网络返回情况可以用这个地址 http://httpbin.org
+        let dic = ["name":"why", "age":18] as [String : Any]
+        
+        SLRequest.shareInstance.request(methodType: .GET, urlString: "http://www.baidu.", parameters: dic) { (result, error) in
+            if error != nil {
+                print(error!)
+                return
+            }
+            
+            print(result!)
+        }
 
         // Do any additional setup after loading the view.
     }
