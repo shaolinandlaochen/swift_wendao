@@ -22,10 +22,8 @@ class SLRequest: AFHTTPSessionManager {
         tools.responseSerializer.acceptableContentTypes?.insert("text/plain")
         return tools
     }()
-    
-    
-
 }
+
 // MARK:- 封装请求方法
 extension SLRequest {
     func request(methodType: RequestType, urlString: String, parameters: [String : Any], finshed: @escaping (_ reslut: Any?, _ error: Error?) -> ()) {
